@@ -83,3 +83,54 @@ Double variable: 3.14
 Character variable: A
 String variable: Hello
 Boolean variable: true
+
+## . Type Conversion
+
+
+Automatic conversion of a smaller data type into a larger data type.
+
+
+Example:
+
+
+```java
+int a = 10;
+double b = a;
+```
+
+
+Output:
+
+
+```text
+10.0
+```
+
+
+---
+
+
+## 7. Type Casting
+
+
+Manual conversion of a larger data type into a smaller data type.
+
+
+Example:
+
+
+```java
+double c = 9.99;
+int d = (int) c;
+```
+
+
+Output:
+
+
+```text
+9
+```
+
+
+---
