@@ -1,11 +1,11 @@
 public class Variable {
-    
+
     public static void main(String[] args) {
         int a = 10; // integer variable
         double b = 3.14; // double variable
         char c = 'A'; // character variable
         String d = "Hello"; // string variable
-        Boolean e = true; // boolean variable
+        boolean e = true; // boolean variable
 
         System.out.println("Integer variable: " + a);
         System.out.println("Double variable: " + b);
