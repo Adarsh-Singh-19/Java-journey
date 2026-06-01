@@ -1,5 +1,3 @@
-# Java-journey
-Documenting my Java programming journey, projects, and problem-solving practice.
 # Java Journey 🚀
 
 Hi, I'm Adarsh Singh.
