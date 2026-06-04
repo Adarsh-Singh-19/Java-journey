@@ -110,7 +110,7 @@ Output:
 ---
 
 
-## 7. Type Casting
+## . Type Casting
 
 
 Manual conversion of a larger data type into a smaller data type.

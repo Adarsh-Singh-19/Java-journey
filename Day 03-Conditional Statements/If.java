@@ -8,11 +8,6 @@ public class If {
         if (num > 0) {
             System.out.println(num + " is a positive number.");
         }
-
-        else {
-            System.out.println("The number is Non +ve.");
-        }
-
         sc.close();
     }
     

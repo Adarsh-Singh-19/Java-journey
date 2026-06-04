@@ -1,5 +1,6 @@
+
 import java.util.Scanner;
-public class Palindrome {
+public class Check_Palindrome {
     public static void main(String[]args){
         System.out.println("\t\tWhat you want to check:");
         System.out.println("\t\tClick (1)-->Number");
