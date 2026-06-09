@@ -20,7 +20,7 @@ public class Check_Fibonacci {
             return true;
         }
         else {
-            
+
         int a = 0, b = 1;
         while (b < n) {
             int temp = a + b;

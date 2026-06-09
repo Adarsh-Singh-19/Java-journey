@@ -1,5 +1,5 @@
 import java.util.*;
-public class Triangle{
+public class P_1_Right_Triangle{
     public static void main(String[]args){
         Scanner p=new Scanner(System.in);
         System.out.print("Enter the number of rows: ");

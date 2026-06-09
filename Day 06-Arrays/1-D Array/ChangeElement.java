@@ -71,6 +71,7 @@ public class ChangeElement {
         System.out.print("Enter the new value: ");
         double newValue = sc.nextDouble();
 
-        arr[index] = newValue;
+        arr[index] = newValue;// Update the element at the specified index
+        System.out.println("Element at index " + index + " has been updated to " + newValue);
     }
 }
