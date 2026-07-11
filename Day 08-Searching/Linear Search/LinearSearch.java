@@ -1,7 +1,5 @@
 import java.util.*;
-
 public class LinearSearch {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -20,13 +18,11 @@ public class LinearSearch {
         }
 
         int ans = linearSearch(arr, size, sc);
-
         if (ans != -1) {
             System.out.println("Element found at index: " + ans);
         } else {
             System.out.println("Element not found");
         }
-
         sc.close();
     }
 
@@ -39,7 +35,6 @@ public class LinearSearch {
                 return i;
             }
         }
-
         return -1;
     }
 }
