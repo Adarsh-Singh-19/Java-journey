@@ -1,40 +1,37 @@
 import java.util.*;
 public class LinearSearch {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter the size of array: ");
-        int size = sc.nextInt();
-
-        int[] arr = new int[size];
-
-        System.out.println("Enter the array elements:");
-        for (int i = 0; i < size; i++) {
-            arr[i] = sc.nextInt();
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the size of your array");
+        int n=sc.nextInt();
+        System.out.print("Enter the element of your array");
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
         }
-        System.out.println("your Array is :");
-        for(int i=0;i<size;i++){
-            System.out.print(arr[i]+"  ");
+        System.out.print("Enter the target element");
+        int target=sc.nextInt();
+        int ans=linearSearch(arr,target);
+        if(ans==-1){
+            System.out.print("Element not found");
         }
-
-        int ans = linearSearch(arr, size, sc);
-        if (ans != -1) {
-            System.out.println("Element found at index: " + ans);
-        } else {
-            System.out.println("Element not found");
+        else{
+            System.out.print("Element found at index "+ans);
+            sc.close();
         }
-        sc.close();
     }
 
-    public static int linearSearch(int[] arr, int size, Scanner sc) {
-        System.out.print("What do you want to search? ");
-        int choice = sc.nextInt();
-
-        for (int i = 0; i < size; i++) {
-            if (arr[i] == choice) {
-                return i;
+    public static int linearSearch (int arr[], int target){
+        for(int index=0;index<arr.length;index++){
+            if(arr.length==0){
+                return -1;
+            }
+            for(int i=0;i<arr.length;i++){
+                if(arr[i]==target){
+                    return i;
+                }
             }
         }
-        return -1;
+            return -1;
     }
 }
