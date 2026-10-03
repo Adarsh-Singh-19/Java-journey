@@ -8,7 +8,6 @@ public class MinMax {
         int col=sc.nextInt();
         System.out.println("Enter the elements of your 2D array");
         int arr[][]=new int[row][col];
-
         for(int i=0;i<row;i++){
             for(int j=0;j<col;j++){
                 arr[i][j]=sc.nextInt();
@@ -21,7 +20,6 @@ public class MinMax {
         System.out.println("Maximum element in the array is "+ans2);
         sc.close();
     }
-
     public static int findMin (int arr[][], int row, int col){
         int min=arr[0][0];
 
@@ -34,10 +32,8 @@ public class MinMax {
         }
         return min;
     }
-
     public static int findMax (int arr[][], int row, int col){
         int max=arr[0][0];
-
         for(int i=0; i<row; i++){
             for(int j=0; j<col; j++){
                 if(arr[i][j]>max){
