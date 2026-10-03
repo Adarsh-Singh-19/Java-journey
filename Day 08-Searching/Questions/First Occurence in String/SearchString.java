@@ -6,7 +6,7 @@ public class SearchString{
         String str=sc.nextLine();
         System.out.println("Enter the target character");
         char target=sc.next().charAt(0);
-
+        sc.close();
         int ans=searchString(str,target);
         if(ans==-1){
             System.out.println("Character not found");

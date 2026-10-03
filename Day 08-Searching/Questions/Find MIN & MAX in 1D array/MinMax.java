@@ -15,7 +15,6 @@ public class MinMax {
         System.out.println("Maximum element in the array is "+ans2);
         sc.close();
     }
-
     public static int findMin(int arr[]){
         if(arr.length==0){
             return -1;
@@ -28,7 +27,6 @@ public class MinMax {
         }
         return min;
     }
-
     public static int findMax(int arr[]){
         if(arr.length==0){
             return -1;

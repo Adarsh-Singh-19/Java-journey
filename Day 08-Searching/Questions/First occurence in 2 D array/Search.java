@@ -32,7 +32,6 @@ public class Search {
         if(arr.length==0){
             return new int[]{-1, -1};
         }
-
         for(int i=0; i<row; i++){
             for(int j=0; j<col; j++){
                 if(arr[i][j]==target){
