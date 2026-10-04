@@ -13,6 +13,7 @@ public class BinarySearch{
         int target=sc.nextInt();
         int ans=search(arr,target,0,size-1);
         System.out.println("Element found at index: " + ans);
+        sc.close();
 
     }
 
