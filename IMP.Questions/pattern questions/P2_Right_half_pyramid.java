@@ -1,12 +1,14 @@
 import java.util.*;
-public class P_1_Right_Triangle{
+public class P2_Right_half_pyramid{
     public static void main(String[]args){
         Scanner p=new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
-        int rows = p.nextInt();
+        int r = p.nextInt();
+        System.out.print("Enter the number of rows: ");
+        int c = p.nextInt();
         p.close(); 
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<=i;j++){
+        for(int i=1;i<=r;i++){
+            for(int j=1;j<=i;j++){
                 System.out.print("* ");
             }
             System.out.println();

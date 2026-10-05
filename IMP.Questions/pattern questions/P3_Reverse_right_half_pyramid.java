@@ -1,12 +1,7 @@
-import java.util.*;
-public class P_1_Right_Triangle{
+public class P3_Reverse_right_half_pyramid{
     public static void main(String[]args){
-        Scanner p=new Scanner(System.in);
-        System.out.print("Enter the number of rows: ");
-        int rows = p.nextInt();
-        p.close(); 
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<=i;j++){
+        for(int i=1;i<=5;i++){
+            for(int j=5;j>=i;j--){
                 System.out.print("* ");
             }
             System.out.println();

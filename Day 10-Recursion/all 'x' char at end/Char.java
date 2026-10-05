@@ -1,14 +1,10 @@
 import java.util.Scanner;
-
 public class Char {
-
     public static void move(String str, char ch, int index, int count, String newstr) {
-
         if (index == str.length()) {
             for (int i = 0; i < count; i++) {
                 newstr += ch;
             }
-
             System.out.println("The new string is: " + newstr);
             return;
         }
@@ -35,7 +31,6 @@ public class Char {
         char ch = sc.next().charAt(0);
 
         move(str, ch, 0, 0, "");
-
         sc.close();
     }
 }

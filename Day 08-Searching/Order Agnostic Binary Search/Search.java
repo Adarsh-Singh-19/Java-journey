@@ -19,15 +19,14 @@ public class Search {
         sc.close();
 
     }  
-    
-   
+
     public static int orderAgnosticBinarySearch(int arr[], int target){
         int start=0;
         int end=arr.length-1;
         if(start>end){
             return -1; 
         }
-
+        
         //find whether the array is sorted in ascending or descending order
         boolean isAsc = arr[start]<arr[end];
 
@@ -53,7 +52,6 @@ public class Search {
                 }
             }
         }
-
         return -1;
     }
 }

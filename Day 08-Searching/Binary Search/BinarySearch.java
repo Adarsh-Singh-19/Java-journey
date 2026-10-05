@@ -11,6 +11,7 @@ public class BinarySearch{
         }
         System.out.println("Enter the target element to be searched");
         int target=sc.nextInt();
+
         int ans=search(arr,target,0,size-1);
         System.out.println("Element found at index: " + ans);
         sc.close();
@@ -23,6 +24,7 @@ public class BinarySearch{
         }
         while (start<=end) {
             int mid=start+(end-start)/2;
+            
             if(arr[mid]==target){
                 return mid;
             }
