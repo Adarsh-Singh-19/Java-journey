@@ -21,9 +21,11 @@ class Solution {
 
     }
     static char nextGreatestLetter(char[] letters, char target, int start, int end) {
+        
         if(target>letters[letters.length-1]){
             return letters[0];
         }
+
         while(end>=start){
             int mid = start + (end - start) / 2;
             if(target<letters[mid]){
@@ -33,6 +35,6 @@ class Solution {
                 start = mid+1;
             }
         }
-        return letters[start];
+        return letters[start % letters.length];
     }
 }
